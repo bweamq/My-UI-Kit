@@ -162,3 +162,11 @@ body {
 .danger {
     background: #F44336;
 }
+
+button {
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
