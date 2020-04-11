@@ -170,3 +170,44 @@ button {
 button:hover {
     opacity: 0.8;
 }
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link_primary {
+    text-decoration: none;
+    color: #9C27B4;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.link_info {
+    text-decoration: none;
+    color: #03A9F4;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.link_success {
+    text-decoration: none;
+    color: #4CAF50;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.link_warning {
+    text-decoration: none;
+    color: #FBC02D;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.link_danger {
+    text-decoration: none;
+    color: #F44336;
+    font-size: 12px;
+    line-height: 14px;
+}
